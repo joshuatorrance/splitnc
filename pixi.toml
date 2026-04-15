@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Joshua Torrance <joshua.torrance@anu.edu.au>"]
+channels = ["conda-forge"]
+name = "split-nc"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.4,<3.15"
+xarray = ">=2026.2.0,<2027"
+netcdf4 = ">=1.7.4,<2"
