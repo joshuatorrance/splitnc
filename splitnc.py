@@ -183,7 +183,7 @@ def process_file(
 
         for v in field_vars:
             # Get the list of vars to keep for this field
-            logging.debug(f"Determining depent variables for {v}")
+            logging.debug(f"Determining dependent variables for {v}")
             dependent_vars = get_dependent_vars(ds, v)
             full_var_list = [v] + list(dependent_vars) + shared_vars
 
