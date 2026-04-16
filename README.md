@@ -21,7 +21,7 @@ included in all files even though none of the field variable depend on it.
 #### Ice
 To use this script for split multi-field ice files from ACCESS-ESM1.6:
 ```bash
-python split-nc.py --shared-vars uarea,tmask,tarea  $INPUT_DIR/*.nc
+python split-nc.py --shared-vars uarea,tmask,tarea,VGRDb,VGRDi,VGRDs $INPUT_DIR/*.nc
 ```
 
 With ice files the shared-vars are different and there are no duplicated variables that require renaming.
